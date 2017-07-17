@@ -39,6 +39,7 @@ public class ViewController {
         if(loginuser != null){
             map.put("result","success");
         }else {
+
             map.put("result","fail");
         }
         return map;
